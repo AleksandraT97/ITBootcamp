@@ -20,8 +20,8 @@ public class GlavniProgram {
 		try {
 
 			HomePage.openPage(driver);
-			// RegistrationTest.testWithAllData(driver);
-			// LoginTest.testWithAllData(driver);
+			RegistrationTest.testWithAllData(driver);
+			LoginTest.testWithAllData(driver);
 			LoginTest.fillform(driver, 2);
 			
 
